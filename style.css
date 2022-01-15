@@ -1,0 +1,29 @@
+#form-head{
+    color: red;
+    background-color: aqua;
+    font-family:"Times New Roman";
+
+}
+input{
+
+    color:blue;
+
+}
+
+body{
+
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.label-class{
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+input#empphone{
+    border-width: 5px;
+    border-style: dashed;
+}
