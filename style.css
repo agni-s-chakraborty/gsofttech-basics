@@ -34,6 +34,13 @@ h1{
     border-color: lightcoral;
     border-radius: 15px;
 }
+span{
+    border-style: solid;
+    border-width: 5px 10px 15px 20px;
+    border-color: lightcoral;
+    border-radius: 15px;
+} 
+
 
 a:hover{
     color:green;
@@ -47,5 +54,54 @@ ul{
     margin: 25px 10px 5px 0px;
     padding: 30px 30px 30px 30px;
     list-style-position: inside;
+    background:red;
+
 
 }
+
+table,th,td{
+
+    border: 3px solid black;
+    margin: 15px;
+    
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    height: 70px;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+th,td{
+
+    padding: 15px;
+   
+}
+tr:hover{
+
+    background-color: blueviolet;
+}
+
+td:hover{
+
+    background-color: greenyellow;
+}
+
+span.hidden{
+
+    visibility: hidden;
+}
+
+div.static{
+    position:relative;
+    left: 10px;
+    border:3px solid #73AD21;
+}
+
+
+
